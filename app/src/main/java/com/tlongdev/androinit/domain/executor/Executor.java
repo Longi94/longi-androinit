@@ -4,7 +4,6 @@ import com.tlongdev.androinit.domain.interactor.AbstractInteractor;
 
 /**
  * This executor is responsible for running interactors on background threads.
- * <p/>
  */
 public interface Executor {
 

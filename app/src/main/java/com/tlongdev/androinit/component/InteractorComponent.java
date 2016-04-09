@@ -9,8 +9,7 @@ import javax.inject.Singleton;
 import dagger.Component;
 
 /**
- * @author Long
- * @since 2016. 04. 08.
+ * Component that injects objects used by interactors.
  */
 @Singleton
 @Component(modules = {ThreadingModule.class, AppModule.class})

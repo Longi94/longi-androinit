@@ -11,8 +11,7 @@ import dagger.Module;
 import dagger.Provides;
 
 /**
- * @author Long
- * @since 2016. 04. 07.
+ * Application level module.
  */
 @Module
 public class AppModule {

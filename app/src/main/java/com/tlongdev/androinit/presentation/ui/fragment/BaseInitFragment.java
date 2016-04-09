@@ -6,10 +6,6 @@ import android.support.v4.app.Fragment;
 
 import com.tlongdev.androinit.InitApplication;
 
-/**
- * @author Long
- * @since 2016. 04. 07.
- */
 public abstract class BaseInitFragment extends Fragment{
 
     protected InitApplication mApplication;

@@ -31,8 +31,8 @@ public class ThreadExecutor implements Executor {
     }
 
     /**
-     * Returns a singleton instance of this executor. If the executor is not initialized then it initializes it and returns
-     * the instance.
+     * Returns a singleton instance of this executor. If the executor is not initialized then it
+     * initializes it and returns the instance.
      */
     public static Executor getInstance() {
         if (sThreadExecutor == null) {

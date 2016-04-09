@@ -9,7 +9,9 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- *
+ * A custom ThreadPoolExecutor that will crash the main thread when a uncaught exception is thrown
+ * on the background thread. Normally when the code is wrapped in a Runnable it will handle uncaught
+ * exception for themself making the background thread die silently
  */
 public class CrashPoolExecutor extends ThreadPoolExecutor {
 

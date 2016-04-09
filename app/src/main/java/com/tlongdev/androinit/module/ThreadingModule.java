@@ -10,6 +10,9 @@ import javax.inject.Singleton;
 import dagger.Module;
 import dagger.Provides;
 
+/**
+ * Threading module.
+ */
 @Module
 public class ThreadingModule {
 
