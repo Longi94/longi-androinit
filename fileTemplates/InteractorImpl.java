@@ -8,7 +8,7 @@ public class ${NAME}InteractorImpl extends AbstractInteractor implements ${NAME}
     
     private Callback mCallback;
     
-    public ${NAME}InteractorImpl(SpicioApplication application, Callback callback) {
+    public ${NAME}InteractorImpl(Application application, Callback callback) {
         super(application.getInteractorComponent());
         application.getInteractorComponent().inject(this);
         mCallback = callback;
